@@ -1,7 +1,0 @@
-{ pkgs }:
-{
-  deps = [
-    pkgs.static-web-server
-    pkgs.python3
-  ];
-}
