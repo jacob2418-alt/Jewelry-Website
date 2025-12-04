@@ -1,0 +1,53 @@
+<!doctype html>
+<!-- services.html -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services | Radiant Reflections Jewelry</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="brand">
+      <svg width="150" height="60" viewBox="0 0 150 60" aria-label="Radiant Reflections Jewelry logo">
+        <rect width="150" height="60" fill="#f8e8ee"></rect>
+        <text x="75" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#8b004b">Radiant</text>
+      </svg>
+    </div>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">☰</button>
+    <nav id="primary-nav" class="nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="services.html" aria-current="page">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <h1>Our Services</h1>
+    <ul>
+      <li>Custom engagement ring design</li>
+      <li>Jewelry repair and cleaning</li>
+      <li>Gemstone replacement</li>
+      <li>Personalized engraving</li>
+    </ul>
+
+    <section id="gallery" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Our Creations</h2>
+      <div class="gallery-container">
+        <img src="https://via.placeholder.com/150x150?text=Ring" alt="Gold ring with gemstone" width="150" height="150">
+        <img src="https://via.placeholder.com/150x150?text=Necklace" alt="Elegant necklace" width="150" height="150">
+        <img src="https://via.placeholder.com/150x150?text=Bracelet" alt="Bracelet" width="150" height="150">
+      </div>
+      <button id="addImageBtn" type="button">Add New Image</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Radiant Reflections Jewelry</p>
+  </footer>
+</body>
+</html>
